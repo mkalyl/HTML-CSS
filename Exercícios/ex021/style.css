@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: dimgray;
+}
+ h1 {
+    font-family: 'Times New Roman', Times, serif;
+ }
+header {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 4px 4px 9px 0px;
+}
+
+nav {
+    background-color: rgb(71, 70, 70);
+    padding: 3px;
+    box-shadow: 4px 4px 9px 0px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px 0px;
+    box-shadow: 4px 4px 9px 0px;
+}
+
+mark {
+    background-color: rgb(248, 150, 150);
+    color: rgb(0, 0, 0);
+}
+
+article {
+    background-color: lightgray;
+}
+
+article > aside {
+    background-color: rgb(71, 70, 70);
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
