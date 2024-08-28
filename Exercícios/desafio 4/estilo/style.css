@@ -39,7 +39,7 @@ header > p {
 }
 
 a {
-    color: white;
+    color: rgb(255, 254, 254);
     text-decoration: none;
     font-weight: bolder;
 }
